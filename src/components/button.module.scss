@@ -1,0 +1,21 @@
+.main-button {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.primary {
+  background: #2964F9;
+
+  &:hover {
+    background: #215df5;
+  }
+}
+
+.secondary {
+  border: 1px solid #2B3258;
+  background: transparent;
+
+  &:hover {
+    background: #ffffff0a;
+  }
+}

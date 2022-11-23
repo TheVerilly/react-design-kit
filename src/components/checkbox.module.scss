@@ -1,0 +1,20 @@
+.wrapper {
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9494940d;
+  cursor: pointer;
+
+  &:hover {
+    background: #9494941a;
+  }
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  cursor: pointer;
+}

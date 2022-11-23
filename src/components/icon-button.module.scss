@@ -1,0 +1,20 @@
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background: #d7dce8;
+  padding: 6px;
+  box-sizing: content-box;
+  border-radius: 50%;
+  overflow: hidden;
+
+  &:hover {
+    background: #fff;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
